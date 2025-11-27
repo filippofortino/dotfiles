@@ -18,7 +18,6 @@ brew 'yt-dlp'
 brew 'nmap'
 brew 'wget'
 brew 'doctl'
-brew 'codex'
 
 
 # Development
@@ -52,6 +51,7 @@ cask 'microsoft-teams'
 cask 'adobe-creative-cloud'
 cask 'claude'
 cask 'localsend'
+cask 'codex'
 
 # Fonts
 cask 'font-lato'
