@@ -52,6 +52,7 @@ cask 'adobe-creative-cloud'
 cask 'claude'
 cask 'localsend'
 cask 'codex'
+cask 'twingate'
 
 # Fonts
 cask 'font-lato'
