@@ -1,6 +1,3 @@
-# Taps
-tap 'grishka/grishka'
-
 # Binaries
 brew 'awscli'
 brew 'bash' # Latest Bash version
@@ -13,7 +10,6 @@ brew 'httpie'
 brew 'mackup'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'svn' # Needed to install fonts
-brew 'grishka/grishka/neardrop'
 brew 'yt-dlp'
 brew 'nmap'
 brew 'wget'
@@ -25,12 +21,12 @@ brew 'node'
 
 # Apps
 cask '1password@beta'
-brew '1password-cli'
-cask 'docker'
+cask '1password-cli'
+cask 'docker-desktop'
 cask 'figma'
 cask 'google-chrome'
 cask 'herd'
-cask 'httpie'
+cask 'httpie-desktop'
 cask 'imageoptim'
 cask 'slack'
 cask 'tableplus'
@@ -40,7 +36,7 @@ cask 'microsoft-office'
 cask 'asana'
 cask 'iterm2'
 cask 'ghostty'
-cask 'tailscale'
+cask 'tailscale-app'
 cask 'raycast'
 cask 'openvpn-connect'
 cask 'nordvpn'
@@ -49,9 +45,11 @@ cask 'spotify'
 cask 'dbngin'
 cask 'microsoft-teams'
 cask 'adobe-creative-cloud'
+cask 'claude-code@latest'
 cask 'claude'
 cask 'localsend'
 cask 'codex'
+cask 'codex-app'
 cask 'twingate'
 
 # Fonts
