@@ -159,3 +159,25 @@ export HERD_PHP_85_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd
 
 # Herd injected PHP 7.4 configuration.
 export HERD_PHP_74_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd/config/php/74/"
+
+# Added by Antigravity
+export PATH="/Users/filippo/.antigravity/antigravity/bin:$PATH"
+export PATH="$HOME/.local/bin:$PATH"
+
+# Added by Antigravity
+export PATH="/Users/filippo/.antigravity/antigravity/bin:$PATH"
+
+# bun completions
+[ -s "/Users/filippo/.bun/_bun" ] && source "/Users/filippo/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# Herd injected PHP 8.2 configuration.
+export HERD_PHP_82_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd/config/php/82/"
+
+
+# Herd injected PHP 8.1 configuration.
+export HERD_PHP_81_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd/config/php/81/"
