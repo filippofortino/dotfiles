@@ -9,7 +9,6 @@ brew 'grep'
 brew 'httpie'
 brew 'mackup'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
-brew 'svn' # Needed to install fonts
 brew 'yt-dlp'
 brew 'nmap'
 brew 'wget'
@@ -51,12 +50,3 @@ cask 'localsend'
 cask 'codex'
 cask 'codex-app'
 cask 'twingate'
-
-# Fonts
-cask 'font-lato'
-cask 'font-open-sans'
-cask 'font-roboto'
-cask 'font-source-code-pro-for-powerline'
-cask 'font-source-code-pro'
-cask 'font-source-sans-pro'
-cask 'font-source-serif-pro'
