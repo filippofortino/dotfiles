@@ -17,6 +17,7 @@ brew 'yt-dlp'
 
 # Development
 brew 'node'
+brew 'oven-sh/bun/bun'
 
 # Apps
 cask '1password-cli'
