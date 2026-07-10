@@ -33,6 +33,9 @@ brew update
 # Install all our dependencies with bundle (See Brewfile)
 brew bundle --file ./Brewfile
 
+# Install tools not managed by Homebrew
+./installers/vite-plus.sh
+
 # Create projects directories
 mkdir $HOME/code
 
