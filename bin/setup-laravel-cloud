@@ -1,0 +1,17 @@
+#!/usr/bin/env bash
+set -euo pipefail
+
+composer_home="${COMPOSER_HOME:-$HOME/.composer}"
+cloud_binary="$composer_home/vendor/bin/cloud"
+
+if command -v cloud >/dev/null 2>&1 || [ -x "$cloud_binary" ]; then
+  echo "Laravel Cloud CLI already installed."
+  exit 0
+fi
+
+if ! command -v composer >/dev/null 2>&1; then
+  echo "Composer is unavailable. Initialize Herd, open a new terminal, and run this command again." >&2
+  exit 1
+fi
+
+composer global require laravel/cloud-cli
