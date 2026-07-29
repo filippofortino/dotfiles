@@ -12,6 +12,7 @@ brew 'mackup'
 brew 'nmap'
 brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
 brew 'wget'
+brew 'worktrunk'
 brew 'yt-dlp'
 
 
