@@ -184,3 +184,7 @@ export HERD_PHP_81_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd
 
 # Vite+ bin (https://viteplus.dev)
 . "$HOME/.vite-plus/env"
+
+
+# Herd injected PHP 8.6 configuration.
+export HERD_PHP_86_INI_SCAN_DIR="/Users/filippo/Library/Application Support/Herd/config/php/86"
